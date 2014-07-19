@@ -2,16 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Shopping List App</title>
+	<title>Shopping List</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 
 <body>
+<!-- Main Container -->
 	<div id="main">
-		<h1> Bundle of Goods </h1>
-		
+		<h1> Grocery Listanator </h1>
+		<h4> Click on the Circle to Cross Out the Item. Click on the X to Delete. </h3>
+<!-- "Add to List" Form & Button-->
+		<div id="form">
+		<input type="text" id="add"></input>
+		<button id="button-add">Add to bundle</button>
+		</div>
+<!-- The List -->
+			<div id="list">
+				<ul>
+					<li class="done"></li>
+<!-- Image for Deletion -->
+					<li class="add-more"><img class="x" src="css/image/big_x.png"/><img class="circle" src="css/image/circle.png"/>Example: Nutella</li>
+				</ul>
+			</div>
+	</div>	
 	
 </body>
 </html>

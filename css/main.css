@@ -1,0 +1,84 @@
+/*Text Designation*/
+* {
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	text-transform: uppercase;
+}
+/* Background Image */
+body {
+	background-image:url('image/grocery.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+/* Main Container */
+#main {
+	max-width:450px;
+	height:880px;
+	margin: 20px auto;
+}
+/* Main Headers */
+#main h1 {
+	text-align: center;
+	color:white;
+}
+#main h4 {
+	text-align: center;
+	color:white;
+}
+/* Form & Button */
+#form {
+	margin-left:120px;
+}
+
+#form input {
+	border: 1px solid #D8D8D8;
+	height:18px;
+	max-width:150px;
+}
+#button-add {
+	border:1px solid;
+	height:25px;
+	border-radius:2px;
+	background-color:#F3F3F3;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:11px;
+	color:#444;
+}
+/* The List */
+#list {
+	margin-right: 30px;
+}
+li {
+	border: 1px solid white;
+	border-radius: 20px;
+	margin: 5px auto;
+	padding: 8px;
+	list-style: none;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	text-align:center;
+}
+/* When deleted */
+.done {
+	text-decoration:line-through;
+	background-color: red;
+	border: 1px solid red;
+	height: 20px;
+	opacity: 0.4;
+}
+.add-more {
+	text-align:center;
+}
+/* Image Modification */
+.x {
+	height:18px;
+	float:right;
+	margin-top:-2px;
+}
+.circle {
+	height:14px;
+	float:left;
+	margin-top:2px;
+}
