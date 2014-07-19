@@ -11,6 +11,13 @@ $(document).ready(function () {
 		}
 	});
 
+// using the enter key
+	$('#add').keyup(function(event){
+		if(event.keyCode == 13) {
+			event.preventDefault();
+			$('#button-add').click();
+		};
+	});
 //delete list items
 	
 	$('ul').on('click', '.x', function(event) {
