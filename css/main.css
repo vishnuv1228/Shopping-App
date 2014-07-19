@@ -32,7 +32,7 @@ body {
 #form input {
 	border: 1px solid #D8D8D8;
 	height:18px;
-	mawidth:150px;
+	max-width:150px;
 }
 #button-add {
 	border:1px solid;
