@@ -32,7 +32,7 @@ body {
 #form input {
 	border: 1px solid #D8D8D8;
 	height:18px;
-	max-width:150px;
+	mawidth:150px;
 }
 #button-add {
 	border:1px solid;
@@ -66,7 +66,7 @@ li {
 	background-color: red;
 	border: 1px solid red;
 	height: 20px;
-	opacity: 0.4;
+	opacity: 0.8;
 }
 .add-more {
 	text-align:center;
