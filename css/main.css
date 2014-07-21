@@ -1,8 +1,3 @@
-/*Text Designation*/
-* {
-	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-	text-transform: uppercase;
-}
 /* Background Image */
 body {
 	background-image:url('image/grocery.jpg');
@@ -11,16 +6,15 @@ body {
 }
 /* Main Container */
 #main {
+	outline: 1px solid white;
 	max-width:450px;
 	height:880px;
 	margin: 20px auto;
 }
-/* Main Headers */
+/* Main Header */
 #main h1 {
-	text-align: center;
-	color:white;
-}
-#main h4 {
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	text-transform: uppercase;
 	text-align: center;
 	color:white;
 }
@@ -32,7 +26,7 @@ body {
 #form input {
 	border: 1px solid #D8D8D8;
 	height:18px;
-	max-width:150px;
+	width:150px;
 }
 #button-add {
 	border:1px solid;
@@ -41,44 +35,17 @@ body {
 	background-color:#F3F3F3;
 	text-align:center;
 	font-weight:bold;
-	text-transform:uppercase;
+	font-family:Arial;
 	font-size:11px;
 	color:#444;
 }
 /* The List */
-#list {
-	margin-right: 30px;
-}
-li {
-	border: 1px solid white;
-	border-radius: 20px;
-	margin: 5px auto;
+#list li {
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 10px 0px;
 	padding: 8px;
 	list-style: none;
-	color:white;
-	font-weight:bold;
-	font-size:15px;
-	text-align:center;
-}
-/* When deleted */
-.done {
-	text-decoration:line-through;
-	background-color: red;
-	border: 1px solid red;
-	height: 20px;
-	opacity: 0.8;
-}
-.add-more {
-	text-align:center;
-}
-/* Image Modification */
-.x {
-	height:18px;
-	float:right;
-	margin-top:-2px;
-}
-.circle {
-	height:14px;
-	float:left;
-	margin-top:2px;
+	background-color:white;
+	opacity:0.4;
 }
